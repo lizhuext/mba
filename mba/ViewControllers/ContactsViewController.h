@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContactsViewController : BaseViewController
+@interface ContactsViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>{
+    
+}
 
+- (IBAction)onTopTypeChanged:(id)sender;
 @end

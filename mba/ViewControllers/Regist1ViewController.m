@@ -47,9 +47,8 @@
 
 - (IBAction)btnGetVarCodeAction:(id)sender
 {
-    btnGetVarCode.enabled = NO;
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(countDown:) userInfo:nil repeats:YES];
-    [timer fire];
+    btnGetVarCode.userInteractionEnabled = NO;
+    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(countDown:) userInfo:nil repeats:YES];
 }
 
 - (void)countDown:(NSTimer *)timer
@@ -60,7 +59,7 @@
     if(count == 0){
         [timer invalidate];
         timer = nil;
-        btnGetVarCode.enabled = YES;
+        btnGetVarCode.userInteractionEnabled = YES;
         count = 60;
         [btnGetVarCode setTitle:@"获取验证码" forState:UIControlStateNormal];
     }
