@@ -26,7 +26,35 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    UIImage *imgBg = [UIImage imageNamed:@"nav_back"];
+    button.frame = CGRectMake(5,5, 12, 22);
+    [button setImage:imgBg forState:UIControlStateNormal];
+    button.showsTouchWhenHighlighted = YES;
+    [button addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] initWithCustomView:button];
+    self.navigationItem.leftBarButtonItem = back;
+}
+
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+{
+    if([touch.view isKindOfClass:[UIControl class]]){
+        return NO;
+    }
+    return YES;
+}
+
+-(void)backAction
+{
+    if ([self.parentViewController.presentedViewController isEqual:self]){
+        
+        [self dismissViewControllerAnimated:YES completion:^{
+           
+        }];
+        
+    } else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning

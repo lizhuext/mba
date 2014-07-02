@@ -26,7 +26,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    count = 60;
+    UITapGestureRecognizer *oneTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hiddenKeyboard)];
+    oneTap.delegate =  self;
+    [self.view addGestureRecognizer:oneTap];
+    [btnNext.layer setCornerRadius:5.0f];
+    btnNext.layer.masksToBounds = YES;
+    UIImage *imgBg = [[UIImage imageNamed:@"regist_bg"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
+    [imgvBg setImage:imgBg];
+}
+
+-(void)hiddenKeyboard
+{
+    [txtPhoneNum resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,28 +56,10 @@
 }
 */
 
-- (IBAction)btnGetVarCodeAction:(id)sender
-{
-    btnGetVarCode.userInteractionEnabled = NO;
-    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(countDown:) userInfo:nil repeats:YES];
-}
 
-- (void)countDown:(NSTimer *)timer
-{
-    count--;
-    NSString *title = [NSString stringWithFormat:@"重新获取%ds",count];
-    [btnGetVarCode setTitle:title forState:UIControlStateNormal];
-    if(count == 0){
-        [timer invalidate];
-        timer = nil;
-        btnGetVarCode.userInteractionEnabled = YES;
-        count = 60;
-        [btnGetVarCode setTitle:@"获取验证码" forState:UIControlStateNormal];
-    }
-}
 
 - (IBAction)btnNextAction:(id)sender
 {
-    
+    [self performSegueWithIdentifier:@"VarCodeViewController" sender:nil];
 }
 @end

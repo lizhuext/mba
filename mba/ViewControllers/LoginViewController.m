@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface LoginViewController ()
 
@@ -26,6 +27,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UITapGestureRecognizer *oneTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hiddenKeyboard)];
+    oneTap.delegate =  self;
+    [self.view addGestureRecognizer:oneTap];
+    [btnLogin.layer setCornerRadius:5.0f];
+    btnLogin.layer.masksToBounds = YES;
+    UIImage *imgBg = [[UIImage imageNamed:@"login_bg"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
+    [imgvBg setImage:imgBg];
+}
+
+
+
+-(void)hiddenKeyboard
+{
+    [txtAccount resignFirstResponder];
+    [txtPassword resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning

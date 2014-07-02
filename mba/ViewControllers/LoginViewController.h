@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController{
+@interface LoginViewController : BaseViewController{
     
     __weak IBOutlet UITextField *txtAccount;
     __weak IBOutlet UITextField *txtPassword;
     __weak IBOutlet UISwitch *switchAutoLogin;
     __weak IBOutlet UIButton *btnLogin;
+    __weak IBOutlet UIImageView *imgvBg;
 }
 
 - (IBAction)switchChangedAction:(id)sender;

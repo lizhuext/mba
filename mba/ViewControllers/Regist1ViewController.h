@@ -11,13 +11,10 @@
 @interface Regist1ViewController : BaseViewController{
     
     __weak IBOutlet UITextField *txtPhoneNum;
-    __weak IBOutlet UITextField *txtVarCode;
     __weak IBOutlet UIButton *btnNext;
-    __weak IBOutlet UIButton *btnGetVarCode;
-    int count;
+    __weak IBOutlet UIImageView *imgvBg;
 }
 
-- (IBAction)btnGetVarCodeAction:(id)sender;
 - (IBAction)btnNextAction:(id)sender;
 
 @end

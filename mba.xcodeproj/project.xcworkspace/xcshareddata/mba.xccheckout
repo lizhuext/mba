@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95F32379-1B3A-429C-9AF2-E4415C7773C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mba</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F3EF3878-5547-444B-8C7C-3B961602214E</key>
+		<string>https://github.com/lizhuext/mba.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mba.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F3EF3878-5547-444B-8C7C-3B961602214E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lizhuext/mba.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F3EF3878-5547-444B-8C7C-3B961602214E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3EF3878-5547-444B-8C7C-3B961602214E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mba</string>
+		</dict>
+	</array>
+</dict>
+</plist>

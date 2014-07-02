@@ -44,6 +44,7 @@
 		07B2C801194AEB7C00F235B5 /* Regist1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C800194AEB7C00F235B5 /* Regist1ViewController.m */; };
 		07B2C804194AEB9400F235B5 /* Regist2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C803194AEB9400F235B5 /* Regist2ViewController.m */; };
 		07B2C807194AF17C00F235B5 /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C806194AF17C00F235B5 /* GlobalVariables.m */; };
+		E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,8 @@
 		07B2C803194AEB9400F235B5 /* Regist2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Regist2ViewController.m; sourceTree = "<group>"; };
 		07B2C805194AF17C00F235B5 /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
 		07B2C806194AF17C00F235B5 /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		E57E4CE5196409F500D1BFCA /* VarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarCodeViewController.h; sourceTree = "<group>"; };
+		E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +212,8 @@
 				07B2C800194AEB7C00F235B5 /* Regist1ViewController.m */,
 				07B2C802194AEB9400F235B5 /* Regist2ViewController.h */,
 				07B2C803194AEB9400F235B5 /* Regist2ViewController.m */,
+				E57E4CE5196409F500D1BFCA /* VarCodeViewController.h */,
+				E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -418,6 +423,7 @@
 				07583D57195F025900E6C446 /* BaseModel.m in Sources */,
 				07583D4C195F01A400E6C446 /* JSONModelError.m in Sources */,
 				07583D51195F01A400E6C446 /* JSONKeyMapper.m in Sources */,
+				E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */,
 				07583D4B195F01A400E6C446 /* JSONModelClassProperty.m in Sources */,
 				074F0A201948ABE100DD8FA7 /* BaseViewController.m in Sources */,
 				07583D4F195F01A400E6C446 /* JSONHTTPClient.m in Sources */,
@@ -531,6 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mba/mba-Prefix.pch";
 				INFOPLIST_FILE = "mba/mba-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -544,6 +551,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mba/mba-Prefix.pch";
 				INFOPLIST_FILE = "mba/mba-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

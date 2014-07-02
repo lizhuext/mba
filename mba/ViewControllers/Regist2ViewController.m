@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+
     }
     return self;
 }
@@ -26,13 +26,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UITapGestureRecognizer *oneTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hiddenKeyboard)];
+    oneTap.delegate =  self;
+    [self.view addGestureRecognizer:oneTap];
+    [btnRegist.layer setCornerRadius:5.0f];
+    btnRegist.layer.masksToBounds = YES;
+    UIImage *imgBg = [[UIImage imageNamed:@"login_bg"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
+    [imgvBg setImage:imgBg];
+}
+
+-(void)hiddenKeyboard
+{
+    [txtPassword1 resignFirstResponder];
+    [txtPassword2 resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*
@@ -46,4 +57,8 @@
 }
 */
 
+- (IBAction)onBtnRegistAction:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
