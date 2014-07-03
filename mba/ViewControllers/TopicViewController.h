@@ -13,6 +13,7 @@
     
     __weak IBOutlet UIView *viewTopPop;
     UIView *maskView;
+    __weak IBOutlet UIButton *btnRight;
 }
 
 

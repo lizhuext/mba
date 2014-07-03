@@ -30,6 +30,7 @@
     viewTopPop.layer.shadowOpacity = 0.1f;
     viewTopPop.layer.shadowOffset = CGSizeMake(0,2);
     viewTopPop.layer.shadowColor = [UIColor blackColor].CGColor;
+    viewTopPop.backgroundColor = [UIColor colorWithRed:244.0/255.0 green:244.0/255.0 blue:244.0/255.0 alpha:0.9];
     #if (defined(__IPHONE_7_0))
         [viewTopPop applyMotionEffects];
     #endif
@@ -112,6 +113,7 @@
         return;
     }
     else{
+        [btnRight setImage:[UIImage imageNamed:@"more_off"] forState:UIControlStateNormal];
         CALayer *maskLayer = [CALayer layer];
         maskLayer.frame = self.view.bounds;
         maskLayer.backgroundColor = [UIColor blackColor].CGColor;
@@ -129,6 +131,8 @@
         return;
     }
     else{
+        [btnRight setImage:[UIImage imageNamed:@"more_on"] forState:UIControlStateNormal];
+
         [UIView animateWithDuration:0.3f delay:0.0f options:UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionAllowUserInteraction animations:^{
             viewTopPop.bottom = 0;
         } completion:^(BOOL finished) {
