@@ -33,6 +33,7 @@
     btnRegist.layer.masksToBounds = YES;
     UIImage *imgBg = [[UIImage imageNamed:@"login_bg"] stretchableImageWithLeftCapWidth:5 topCapHeight:0];
     [imgvBg setImage:imgBg];
+    btnRegist.enabled = NO;
 }
 
 -(void)hiddenKeyboard
@@ -46,19 +47,26 @@
     [super didReceiveMemoryWarning];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (IBAction)onBtnRegistAction:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (IBAction)onBtnRegistAction:(id)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (IBAction)btnCheckAction:(id)sender
+{
+    btnCheck.selected = !(btnCheck.selected);
+    if(btnCheck.selected){
+        btnRegist.enabled = YES;
+    }
+    else{
+        btnRegist.enabled = NO;
+    }
+}
+
+- (IBAction)btnPravicyAction:(id)sender
+{
+    
+}
+
 @end

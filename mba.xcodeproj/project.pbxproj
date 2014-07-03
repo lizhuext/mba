@@ -44,6 +44,10 @@
 		07B2C801194AEB7C00F235B5 /* Regist1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C800194AEB7C00F235B5 /* Regist1ViewController.m */; };
 		07B2C804194AEB9400F235B5 /* Regist2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C803194AEB9400F235B5 /* Regist2ViewController.m */; };
 		07B2C807194AF17C00F235B5 /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B2C806194AF17C00F235B5 /* GlobalVariables.m */; };
+		E514B6411964F7CC001D3B5E /* PrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6401964F7CC001D3B5E /* PrivacyViewController.m */; };
+		E514B6471964FBDB001D3B5E /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6441964FBDB001D3B5E /* NJKWebViewProgress.m */; };
+		E514B6481964FBDB001D3B5E /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */; };
+		E514B64B19650876001D3B5E /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B64A19650876001D3B5E /* UIColor+Utils.m */; };
 		E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +124,14 @@
 		07B2C803194AEB9400F235B5 /* Regist2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Regist2ViewController.m; sourceTree = "<group>"; };
 		07B2C805194AF17C00F235B5 /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
 		07B2C806194AF17C00F235B5 /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		E514B63F1964F7CC001D3B5E /* PrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyViewController.h; sourceTree = "<group>"; };
+		E514B6401964F7CC001D3B5E /* PrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyViewController.m; sourceTree = "<group>"; };
+		E514B6431964FBDB001D3B5E /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		E514B6441964FBDB001D3B5E /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		E514B6451964FBDB001D3B5E /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		E514B64919650876001D3B5E /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		E514B64A19650876001D3B5E /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		E57E4CE5196409F500D1BFCA /* VarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarCodeViewController.h; sourceTree = "<group>"; };
 		E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +226,8 @@
 				07B2C803194AEB9400F235B5 /* Regist2ViewController.m */,
 				E57E4CE5196409F500D1BFCA /* VarCodeViewController.h */,
 				E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */,
+				E514B63F1964F7CC001D3B5E /* PrivacyViewController.h */,
+				E514B6401964F7CC001D3B5E /* PrivacyViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -310,6 +324,9 @@
 		07B2C7E5194A8EEE00F235B5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E514B64919650876001D3B5E /* UIColor+Utils.h */,
+				E514B64A19650876001D3B5E /* UIColor+Utils.m */,
+				E514B6421964FBDB001D3B5E /* NJKWebViewProgress */,
 				07583D2C195F01A400E6C446 /* JSONModel */,
 				07583D28195EFAF700E6C446 /* ValidateIt Library */,
 				07B2C7EF194A8F4D00F235B5 /* MBProgressHUD */,
@@ -336,6 +353,17 @@
 				07B2C7F1194A8F4D00F235B5 /* MBProgressHUD.m */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		E514B6421964FBDB001D3B5E /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				E514B6431964FBDB001D3B5E /* NJKWebViewProgress.h */,
+				E514B6441964FBDB001D3B5E /* NJKWebViewProgress.m */,
+				E514B6451964FBDB001D3B5E /* NJKWebViewProgressView.h */,
+				E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +437,7 @@
 				07B2C7ED194A8EEE00F235B5 /* UIView+Toast.m in Sources */,
 				07583D4D195F01A400E6C446 /* NSArray+JSONModel.m in Sources */,
 				07583D2B195EFAF700E6C446 /* validation.m in Sources */,
+				E514B64B19650876001D3B5E /* UIColor+Utils.m in Sources */,
 				074BA4CE1949FC51007C8CA0 /* MeViewController.m in Sources */,
 				07583D4A195F01A400E6C446 /* JSONModelArray.m in Sources */,
 				07B2C7FE194AEB4E00F235B5 /* LoginViewController.m in Sources */,
@@ -418,10 +447,12 @@
 				07B2C801194AEB7C00F235B5 /* Regist1ViewController.m in Sources */,
 				07B2C7F5194A8F8200F235B5 /* PGToast.m in Sources */,
 				07583D52195F01A400E6C446 /* JSONValueTransformer.m in Sources */,
+				E514B6481964FBDB001D3B5E /* NJKWebViewProgressView.m in Sources */,
 				074F0A1D1948ABAB00DD8FA7 /* ContactsViewController.m in Sources */,
 				07B2C7EE194A8EEE00F235B5 /* UIViewExt.m in Sources */,
 				07583D57195F025900E6C446 /* BaseModel.m in Sources */,
 				07583D4C195F01A400E6C446 /* JSONModelError.m in Sources */,
+				E514B6471964FBDB001D3B5E /* NJKWebViewProgress.m in Sources */,
 				07583D51195F01A400E6C446 /* JSONKeyMapper.m in Sources */,
 				E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */,
 				07583D4B195F01A400E6C446 /* JSONModelClassProperty.m in Sources */,
@@ -432,6 +463,7 @@
 				074F09F01948AAE700DD8FA7 /* AppDelegate.m in Sources */,
 				07B2C7F2194A8F4D00F235B5 /* MBProgressHUD.m in Sources */,
 				074F0A1C1948ABAB00DD8FA7 /* TopicViewController.m in Sources */,
+				E514B6411964F7CC001D3B5E /* PrivacyViewController.m in Sources */,
 				074F09EC1948AAE700DD8FA7 /* main.m in Sources */,
 				07583D5A195F027400E6C446 /* BaseBusiness.m in Sources */,
 			);

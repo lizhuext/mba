@@ -13,6 +13,9 @@
     __weak IBOutlet UITextField *txtPassword1;
     __weak IBOutlet UITextField *txtPassword2;
     __weak IBOutlet UIButton *btnRegist;
+    __weak IBOutlet UIButton *btnCheck;
+    __weak IBOutlet UIButton *btnPravicy;
+    
     
 }
 

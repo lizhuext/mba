@@ -18,7 +18,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LD6-1i-kbA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3046" y="-865"/>
+            <point key="canvasLocation" x="-3644" y="-2545"/>
         </scene>
         <!--Login View Controller - 登录-->
         <scene sceneID="Qap-DA-1L4">
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lP3-oa-5mS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2573" y="-1168"/>
+            <point key="canvasLocation" x="-3101" y="-2528"/>
         </scene>
         <!--Regist1 View Controller - 注册-->
         <scene sceneID="bwP-RL-kc8">
@@ -161,9 +161,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="57q-Jm-dH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2081" y="-1358"/>
+            <point key="canvasLocation" x="-2545" y="-2534"/>
         </scene>
-        <!--Regist2 View Controller - 填写密码-->
+        <!--Regist2 View Controller - 输入密码-->
         <scene sceneID="Joj-QD-qvz">
             <objects>
                 <viewController id="7qc-Ty-kfV" customClass="Regist2ViewController" sceneMemberID="viewController">
@@ -183,20 +183,14 @@
                                 <rect key="frame" x="20" y="79" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="确认密码" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8UX-p4-fDy">
                                 <rect key="frame" x="20" y="126" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我已阅读并同意使用脉动MBA使用条款及协议" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMQ-5G-JWj">
-                                <rect key="frame" x="70" y="180" width="237" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYR-Fz-AG4">
                                 <rect key="frame" x="20" y="218" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -204,6 +198,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="注册">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="onBtnRegistAction:" destination="7qc-Ty-kfV" eventType="touchUpInside" id="070-Ta-AvZ"/>
@@ -213,15 +210,33 @@
                                 <rect key="frame" x="20" y="171" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" image="checked">
+                                <state key="normal" image="uncheck">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="selected" image="checked"/>
+                                <connections>
+                                    <action selector="btnCheckAction:" destination="7qc-Ty-kfV" eventType="touchUpInside" id="2WQ-93-mkc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k89-Xz-zKd">
+                                <rect key="frame" x="62" y="176" width="238" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="我已阅读并同意使用脉动MBA使用条款及协议">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPravicyAction:" destination="7qc-Ty-kfV" eventType="touchUpInside" id="ffu-vD-IvU"/>
+                                    <segue destination="RCG-Xz-rd7" kind="modal" id="vRj-LW-gVJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="填写密码" id="I3o-fL-gVD"/>
+                    <navigationItem key="navigationItem" title="输入密码" id="m5g-7a-ABn"/>
                     <connections>
+                        <outlet property="btnCheck" destination="M9A-rm-A1Q" id="P0C-vL-aMX"/>
+                        <outlet property="btnPravicy" destination="k89-Xz-zKd" id="Yau-7B-5ee"/>
                         <outlet property="btnRegist" destination="XYR-Fz-AG4" id="FaL-mr-LHi"/>
                         <outlet property="imgvBg" destination="ZFo-i1-kY1" id="9Yq-Ql-VyR"/>
                         <outlet property="txtPassword1" destination="S0K-8R-X5O" id="VQU-R7-134"/>
@@ -230,7 +245,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3T-eL-geH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1212" y="-1473"/>
+            <point key="canvasLocation" x="-1340" y="-2545"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0uJ-Vq-Pxm">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="RCG-Xz-rd7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GHu-mQ-oac">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dfC-1O-cuG" kind="relationship" relationship="rootViewController" id="hTf-YL-bNL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qQ5-CA-wh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-793" y="-2550"/>
+        </scene>
+        <!--Privacy View Controller-->
+        <scene sceneID="Yrv-1O-X5H">
+            <objects>
+                <viewController id="dfC-1O-cuG" customClass="PrivacyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nac-gN-9BR"/>
+                        <viewControllerLayoutGuide type="bottom" id="SH1-4D-HQd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PDv-bP-ZMJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIr-7Z-bcp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yrx-ZV-WFt">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="nAa-Lb-Hqt">
+                            <connections>
+                                <action selector="reloadButtonPushed:" destination="dfC-1O-cuG" id="DZq-NI-SJR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="web" destination="KIr-7Z-bcp" id="ruq-H3-cAQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ZH-sN-AQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-259" y="-2550"/>
         </scene>
         <!--Var Code View Controller - 填写验证码-->
         <scene sceneID="YsA-nu-26A">
@@ -284,7 +349,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnNextAction:" destination="yXS-4E-yxk" eventType="touchUpInside" id="6e1-Mu-vmj"/>
-                                    <segue destination="7qc-Ty-kfV" kind="push" identifier="Regist2ViewController" id="mRq-hY-lqw"/>
+                                    <segue destination="7qc-Ty-kfV" kind="push" identifier="Regist2ViewController" id="hIm-lY-h9D"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -301,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ypc-cK-i1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1672" y="-1358"/>
+            <point key="canvasLocation" x="-1912" y="-2550"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -743,7 +808,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sSV-3T-jRb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="150" y="1363"/>
+            <point key="canvasLocation" x="-273" y="980"/>
         </scene>
     </scenes>
     <resources>
@@ -752,6 +817,7 @@
         <image name="first" width="30" height="30"/>
         <image name="head1" width="47" height="47"/>
         <image name="second" width="30" height="30"/>
+        <image name="uncheck" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

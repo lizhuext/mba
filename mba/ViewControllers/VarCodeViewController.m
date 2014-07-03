@@ -78,6 +78,6 @@
 
 - (IBAction)btnNextAction:(id)sender {
     
-    [self performSegueWithIdentifier:@"Regist1ViewController" sender:nil];
+//    [self performSegueWithIdentifier:@"Regist2ViewController" sender:nil];
 }
 @end

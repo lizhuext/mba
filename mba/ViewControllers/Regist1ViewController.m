@@ -60,6 +60,6 @@
 
 - (IBAction)btnNextAction:(id)sender
 {
-    [self performSegueWithIdentifier:@"VarCodeViewController" sender:nil];
+//    [self performSegueWithIdentifier:@"VarCodeViewController" sender:nil];
 }
 @end

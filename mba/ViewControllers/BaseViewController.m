@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorFromHexRGB:@"f2f2f2"];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     UIImage *imgBg = [UIImage imageNamed:@"nav_back"];
     button.frame = CGRectMake(5,5, 12, 22);
@@ -46,7 +47,7 @@
 
 -(void)backAction
 {
-    if ([self.parentViewController.presentedViewController isEqual:self]){
+    if ([self.parentViewController.presentedViewController isEqual:self] || self.parentViewController.presentingViewController){
         
         [self dismissViewControllerAnimated:YES completion:^{
            
