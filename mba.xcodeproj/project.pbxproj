@@ -48,6 +48,21 @@
 		E514B6471964FBDB001D3B5E /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6441964FBDB001D3B5E /* NJKWebViewProgress.m */; };
 		E514B6481964FBDB001D3B5E /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */; };
 		E514B64B19650876001D3B5E /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B64A19650876001D3B5E /* UIColor+Utils.m */; };
+		E5289A611966516D00A2D94D /* MyJoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A601966516D00A2D94D /* MyJoinViewController.m */; };
+		E5289A641966524E00A2D94D /* MyPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A631966524E00A2D94D /* MyPublishViewController.m */; };
+		E5289A671966809900A2D94D /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A661966809900A2D94D /* MyCollectionViewController.m */; };
+		E5289A6A19668AF400A2D94D /* TopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A6919668AF400A2D94D /* TopicDetailViewController.m */; };
+		E5289A7B1966AE7900A2D94D /* WUEmoticonsKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A6E1966AE7900A2D94D /* WUEmoticonsKeyboard.m */; };
+		E5289A7C1966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A701966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.m */; };
+		E5289A7D1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A721966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.m */; };
+		E5289A7E1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A741966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.m */; };
+		E5289A7F1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A761966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.m */; };
+		E5289A801966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A781966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.m */; };
+		E5289A811966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A7A1966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.m */; };
+		E5289A831966B1F800A2D94D /* EmotionTextKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5289A821966B1F800A2D94D /* EmotionTextKeys.plist */; };
+		E5289A8C1966B41600A2D94D /* AddTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A8B1966B41600A2D94D /* AddTopicViewController.m */; };
+		E5289A911966B7B600A2D94D /* WUDemoKeyboardBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A8E1966B7B600A2D94D /* WUDemoKeyboardBuilder.m */; };
+		E5289A921966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A901966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.m */; };
 		E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +147,36 @@
 		E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		E514B64919650876001D3B5E /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
 		E514B64A19650876001D3B5E /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		E5289A5F1966516D00A2D94D /* MyJoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJoinViewController.h; sourceTree = "<group>"; };
+		E5289A601966516D00A2D94D /* MyJoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJoinViewController.m; sourceTree = "<group>"; };
+		E5289A621966524E00A2D94D /* MyPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPublishViewController.h; sourceTree = "<group>"; };
+		E5289A631966524E00A2D94D /* MyPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPublishViewController.m; sourceTree = "<group>"; };
+		E5289A651966809900A2D94D /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		E5289A661966809900A2D94D /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		E5289A6819668AF400A2D94D /* TopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicDetailViewController.h; sourceTree = "<group>"; };
+		E5289A6919668AF400A2D94D /* TopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicDetailViewController.m; sourceTree = "<group>"; };
+		E5289A6C1966AE7900A2D94D /* UIResponder+WriteableInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+WriteableInputView.h"; sourceTree = "<group>"; };
+		E5289A6D1966AE7900A2D94D /* WUEmoticonsKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboard.h; sourceTree = "<group>"; };
+		E5289A6E1966AE7900A2D94D /* WUEmoticonsKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboard.m; sourceTree = "<group>"; };
+		E5289A6F1966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyCell.h; sourceTree = "<group>"; };
+		E5289A701966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyCell.m; sourceTree = "<group>"; };
+		E5289A711966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyItem.h; sourceTree = "<group>"; };
+		E5289A721966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyItem.m; sourceTree = "<group>"; };
+		E5289A731966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyItemGroup.h; sourceTree = "<group>"; };
+		E5289A741966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyItemGroup.m; sourceTree = "<group>"; };
+		E5289A751966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeyItemGroupView.h; sourceTree = "<group>"; };
+		E5289A761966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeyItemGroupView.m; sourceTree = "<group>"; };
+		E5289A771966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardKeysPageFlowLayout.h; sourceTree = "<group>"; };
+		E5289A781966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardKeysPageFlowLayout.m; sourceTree = "<group>"; };
+		E5289A791966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUEmoticonsKeyboardToolsView.h; sourceTree = "<group>"; };
+		E5289A7A1966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUEmoticonsKeyboardToolsView.m; sourceTree = "<group>"; };
+		E5289A821966B1F800A2D94D /* EmotionTextKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmotionTextKeys.plist; sourceTree = "<group>"; };
+		E5289A8A1966B41600A2D94D /* AddTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTopicViewController.h; sourceTree = "<group>"; };
+		E5289A8B1966B41600A2D94D /* AddTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTopicViewController.m; sourceTree = "<group>"; };
+		E5289A8D1966B7B600A2D94D /* WUDemoKeyboardBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDemoKeyboardBuilder.h; sourceTree = "<group>"; };
+		E5289A8E1966B7B600A2D94D /* WUDemoKeyboardBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDemoKeyboardBuilder.m; sourceTree = "<group>"; };
+		E5289A8F1966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUDemoKeyboardTextKeyCell.h; sourceTree = "<group>"; };
+		E5289A901966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUDemoKeyboardTextKeyCell.m; sourceTree = "<group>"; };
 		E57E4CE5196409F500D1BFCA /* VarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarCodeViewController.h; sourceTree = "<group>"; };
 		E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,6 +273,16 @@
 				E57E4CE6196409F500D1BFCA /* VarCodeViewController.m */,
 				E514B63F1964F7CC001D3B5E /* PrivacyViewController.h */,
 				E514B6401964F7CC001D3B5E /* PrivacyViewController.m */,
+				E5289A5F1966516D00A2D94D /* MyJoinViewController.h */,
+				E5289A601966516D00A2D94D /* MyJoinViewController.m */,
+				E5289A621966524E00A2D94D /* MyPublishViewController.h */,
+				E5289A631966524E00A2D94D /* MyPublishViewController.m */,
+				E5289A651966809900A2D94D /* MyCollectionViewController.h */,
+				E5289A661966809900A2D94D /* MyCollectionViewController.m */,
+				E5289A6819668AF400A2D94D /* TopicDetailViewController.h */,
+				E5289A6919668AF400A2D94D /* TopicDetailViewController.m */,
+				E5289A8A1966B41600A2D94D /* AddTopicViewController.h */,
+				E5289A8B1966B41600A2D94D /* AddTopicViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -325,6 +380,7 @@
 			isa = PBXGroup;
 			children = (
 				E514B64919650876001D3B5E /* UIColor+Utils.h */,
+				E5289A6B1966AE7900A2D94D /* WUEmoticonsKeyboard */,
 				E514B64A19650876001D3B5E /* UIColor+Utils.m */,
 				E514B6421964FBDB001D3B5E /* NJKWebViewProgress */,
 				07583D2C195F01A400E6C446 /* JSONModel */,
@@ -364,6 +420,33 @@
 				E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */,
 			);
 			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		E5289A6B1966AE7900A2D94D /* WUEmoticonsKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E5289A8D1966B7B600A2D94D /* WUDemoKeyboardBuilder.h */,
+				E5289A8E1966B7B600A2D94D /* WUDemoKeyboardBuilder.m */,
+				E5289A8F1966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.h */,
+				E5289A901966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.m */,
+				E5289A821966B1F800A2D94D /* EmotionTextKeys.plist */,
+				E5289A6C1966AE7900A2D94D /* UIResponder+WriteableInputView.h */,
+				E5289A6D1966AE7900A2D94D /* WUEmoticonsKeyboard.h */,
+				E5289A6E1966AE7900A2D94D /* WUEmoticonsKeyboard.m */,
+				E5289A6F1966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.h */,
+				E5289A701966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.m */,
+				E5289A711966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.h */,
+				E5289A721966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.m */,
+				E5289A731966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.h */,
+				E5289A741966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.m */,
+				E5289A751966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.h */,
+				E5289A761966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.m */,
+				E5289A771966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.h */,
+				E5289A781966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.m */,
+				E5289A791966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.h */,
+				E5289A7A1966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.m */,
+			);
+			path = WUEmoticonsKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +503,7 @@
 				074F09FB1948AAE700DD8FA7 /* Images.xcassets in Resources */,
 				074F09EA1948AAE700DD8FA7 /* InfoPlist.strings in Resources */,
 				074F09F31948AAE700DD8FA7 /* Main.storyboard in Resources */,
+				E5289A831966B1F800A2D94D /* EmotionTextKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,25 +514,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5289A7C1966AE7900A2D94D /* WUEmoticonsKeyboardKeyCell.m in Sources */,
 				07B2C7F8194ADD3E00F235B5 /* ReferMeTableViewController.m in Sources */,
+				E5289A921966B7B600A2D94D /* WUDemoKeyboardTextKeyCell.m in Sources */,
+				E5289A8C1966B41600A2D94D /* AddTopicViewController.m in Sources */,
 				07B2C804194AEB9400F235B5 /* Regist2ViewController.m in Sources */,
 				07B2C7FB194AE80800F235B5 /* UIViewControllerEx.m in Sources */,
 				07583D4E195F01A400E6C446 /* JSONAPI.m in Sources */,
 				07B2C7ED194A8EEE00F235B5 /* UIView+Toast.m in Sources */,
 				07583D4D195F01A400E6C446 /* NSArray+JSONModel.m in Sources */,
+				E5289A801966AE7900A2D94D /* WUEmoticonsKeyboardKeysPageFlowLayout.m in Sources */,
+				E5289A811966AE7900A2D94D /* WUEmoticonsKeyboardToolsView.m in Sources */,
 				07583D2B195EFAF700E6C446 /* validation.m in Sources */,
+				E5289A6A19668AF400A2D94D /* TopicDetailViewController.m in Sources */,
 				E514B64B19650876001D3B5E /* UIColor+Utils.m in Sources */,
 				074BA4CE1949FC51007C8CA0 /* MeViewController.m in Sources */,
+				E5289A7F1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.m in Sources */,
+				E5289A7B1966AE7900A2D94D /* WUEmoticonsKeyboard.m in Sources */,
+				E5289A7D1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.m in Sources */,
 				07583D4A195F01A400E6C446 /* JSONModelArray.m in Sources */,
+				E5289A641966524E00A2D94D /* MyPublishViewController.m in Sources */,
 				07B2C7FE194AEB4E00F235B5 /* LoginViewController.m in Sources */,
 				07583D48195F01A400E6C446 /* JSONModel+CoreData.m in Sources */,
 				07B2C7EC194A8EEE00F235B5 /* AMAlertView.m in Sources */,
 				07583D49195F01A400E6C446 /* JSONModel.m in Sources */,
 				07B2C801194AEB7C00F235B5 /* Regist1ViewController.m in Sources */,
 				07B2C7F5194A8F8200F235B5 /* PGToast.m in Sources */,
+				E5289A671966809900A2D94D /* MyCollectionViewController.m in Sources */,
 				07583D52195F01A400E6C446 /* JSONValueTransformer.m in Sources */,
 				E514B6481964FBDB001D3B5E /* NJKWebViewProgressView.m in Sources */,
 				074F0A1D1948ABAB00DD8FA7 /* ContactsViewController.m in Sources */,
+				E5289A7E1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroup.m in Sources */,
 				07B2C7EE194A8EEE00F235B5 /* UIViewExt.m in Sources */,
 				07583D57195F025900E6C446 /* BaseModel.m in Sources */,
 				07583D4C195F01A400E6C446 /* JSONModelError.m in Sources */,
@@ -456,6 +552,8 @@
 				07583D51195F01A400E6C446 /* JSONKeyMapper.m in Sources */,
 				E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */,
 				07583D4B195F01A400E6C446 /* JSONModelClassProperty.m in Sources */,
+				E5289A911966B7B600A2D94D /* WUDemoKeyboardBuilder.m in Sources */,
+				E5289A611966516D00A2D94D /* MyJoinViewController.m in Sources */,
 				074F0A201948ABE100DD8FA7 /* BaseViewController.m in Sources */,
 				07583D4F195F01A400E6C446 /* JSONHTTPClient.m in Sources */,
 				07B2C807194AF17C00F235B5 /* GlobalVariables.m in Sources */,

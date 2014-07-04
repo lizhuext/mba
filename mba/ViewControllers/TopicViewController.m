@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     
-    [super viewDidLoad];
+//    [super viewDidLoad];
     maskView = [[UIView alloc] initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH ,SCREEN_HEIGHT)];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hiddenTopPopView)];
     [self initTopPopView];
@@ -52,10 +52,6 @@
     [super didReceiveMemoryWarning];
 }
 
-//-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//}
-
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -77,6 +73,12 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    [self performSegueWithIdentifier:@"TopicDetail" sender:nil];
+}
+
 
 
 - (IBAction)btnMineAction:(id)sender {
@@ -90,7 +92,6 @@
 
 - (IBAction)btnReferMeAction:(id)sender
 {
-    [self performSegueWithIdentifier:@"ReferMeTableViewController" sender:nil];
 }
 
 - (IBAction)btnMyPubishAction:(id)sender
