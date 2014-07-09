@@ -2,8 +2,8 @@
 //  WUEmoticonsKeyboardToolsView.m
 //  WeicoUI
 //
-//  Created by YuAo on 1/25/13.
-//  Copyright (c) 2013 微酷奥(北京)科技有限公司. All rights reserved.
+//  Created by lad on 1/25/13.
+//  Copyright (c) 2013 lad. All rights reserved.
 //
 
 #import "WUEmoticonsKeyboardToolsView.h"

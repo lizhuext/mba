@@ -2,8 +2,8 @@
 //  WUEmoticonsKeyboard.m
 //  WeicoUI
 //
-//  Created by YuAo on 1/24/13.
-//  Copyright (c) 2013 微酷奥(北京)科技有限公司. All rights reserved.
+//  Created by Lad on 1/24/13.
+//  Copyright (c) Lad. All rights reserved.
 //
 
 #import "WUEmoticonsKeyboard.h"
@@ -13,8 +13,8 @@
 
 NSString * const WUEmoticonsKeyboardDidSwitchToDefaultKeyboardNotification = @"WUEmoticonsKeyboardDidSwitchToDefaultKeyboardNotification";
 
-CGSize  const WUEmoticonsKeyboardDefaultSize            = (CGSize){320,216};
-CGFloat const WUEmoticonsKeyboardToolsViewDefaultHeight = 45;
+CGSize  const WUEmoticonsKeyboardDefaultSize            = (CGSize){320,216-51};
+CGFloat const WUEmoticonsKeyboardToolsViewDefaultHeight = 0;
 
 
 @interface WUEmoticonsKeyboard () <UIInputViewAudioFeedback>

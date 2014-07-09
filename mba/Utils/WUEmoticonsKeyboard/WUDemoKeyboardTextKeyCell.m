@@ -16,7 +16,7 @@
     if (self) {
         self.keyButton.bounds = self.bounds;
         self.keyButton.titleLabel.font = [UIFont systemFontOfSize:14];
-        [self.keyButton setTitleColor:[UIColor colorWithWhite:41/255.0 alpha:1] forState:UIControlStateNormal];
+        [self.keyButton setTitleColor:[UIColor colorFromHexRGB:@"A1D6A3"] forState:UIControlStateNormal];
     }
     return self;
 }
