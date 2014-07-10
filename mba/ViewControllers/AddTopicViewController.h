@@ -11,6 +11,12 @@
 @interface AddTopicViewController : BaseViewController{
     
     __weak IBOutlet UITextView *txtInput;
+    __weak IBOutlet UILabel *lblTag1;
+    __weak IBOutlet UILabel *lblTag2;
+    __weak IBOutlet UILabel *lblTag3;
+    
 }
+- (IBAction)btnAddTagAction:(id)sender;
+- (IBAction)btnSaveAction:(id)sender;
 
 @end

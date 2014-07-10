@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+<dict>
+	<key>tag0</key>
 	<string>软件</string>
+	<key>tag1</key>
 	<string>设计</string>
+	<key>tag2</key>
 	<string>咨询</string>
+	<key>tag3</key>
 	<string>金融</string>
+	<key>tag4</key>
 	<string>体育</string>
+	<key>tag5</key>
 	<string>传媒</string>
+	<key>tag6</key>
 	<string>矿产</string>
+	<key>tag7</key>
 	<string>楼市</string>
-	<string>旅行</string>
+	<key>tag8</key>
+	<string>银行</string>
+	<key>tag9</key>
 	<string>餐饮</string>
+	<key>tag10</key>
 	<string>土木</string>
+	<key>tag11</key>
 	<string>法律</string>
+	<key>tag12</key>
 	<string>卫生</string>
+	<key>tag13</key>
 	<string>环保</string>
+	<key>tag14</key>
 	<string>科技</string>
+	<key>tag15</key>
 	<string>美容</string>
+	<key>tag16</key>
 	<string>考古</string>
+	<key>tag17</key>
 	<string>影视</string>
+	<key>tag18</key>
 	<string>家居</string>
-</array>
+	<key>tag19</key>
+	<string>通信</string>
+	<key>tag20</key>
+	<string>电力</string>
+</dict>
 </plist>

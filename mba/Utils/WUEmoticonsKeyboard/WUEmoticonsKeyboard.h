@@ -32,6 +32,10 @@ typedef NS_ENUM(NSUInteger, WUEmoticonsKeyboardButton) {
 @property (nonatomic,copy) NSArray *keyItemGroups;
 
 @property (nonatomic,copy) void    (^keyItemGroupPressedKeyCellChangedBlock)(WUEmoticonsKeyboardKeyItemGroup *keyItemGroup, WUEmoticonsKeyboardKeyCell *fromKeyCell, WUEmoticonsKeyboardKeyCell *toKeyCell);
+
+
+@property (nonatomic,copy) void (^keyPressBlock)(NSString *key);
+
 /*
  Note:
  Use the `UIResponder (WUEmoticonsKeyboard)` -switchToEmoticonsKeyboard: method to make a textInput switch to a WUEmoticonsKeyboard.

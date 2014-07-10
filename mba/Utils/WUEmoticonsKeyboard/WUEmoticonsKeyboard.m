@@ -242,7 +242,10 @@ CGFloat const WUEmoticonsKeyboardToolsViewDefaultHeight = 0;
 }
 
 - (void)keyItemTapped:(WUEmoticonsKeyboardKeyItem *)keyItem {
-    [self inputText:keyItem.textToInput];
+//    [self inputText:keyItem.textToInput];
+    if(self.keyPressBlock){
+        self.keyPressBlock(keyItem.key);
+    }
     [UIDevice.currentDevice playInputClick];
 }
 

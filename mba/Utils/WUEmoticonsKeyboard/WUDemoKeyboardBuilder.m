@@ -19,13 +19,14 @@
         WUEmoticonsKeyboard *keyboard = [WUEmoticonsKeyboard keyboard];
         
         //Text keys
-        NSArray *textKeys = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"EmotionTextKeys" ofType:@"plist"]];
+        NSDictionary *textKeys = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"EmotionTextKeys" ofType:@"plist"]];
         
         NSMutableArray *textKeyItems = [NSMutableArray array];
-        for (NSString *text in textKeys) {
+        for (NSString *key in [textKeys allKeys]) {
             WUEmoticonsKeyboardKeyItem *keyItem = [[WUEmoticonsKeyboardKeyItem alloc] init];
-            keyItem.title = text;
-            keyItem.textToInput = text;
+            keyItem.key = key;
+            keyItem.title = [textKeys objectForKey:key];
+            keyItem.textToInput = [textKeys objectForKey:key];
             [textKeyItems addObject:keyItem];
         }
         

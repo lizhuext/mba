@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface WUEmoticonsKeyboardKeyItem : NSObject
+@property (nonatomic,copy) NSString *key;
 @property (nonatomic,copy)    NSString *title;
 @property (nonatomic,strong)  UIImage  *image;
 @property (nonatomic,copy)    NSString *textToInput;
