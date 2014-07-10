@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074BA4CE1949FC51007C8CA0 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BA4CD1949FC51007C8CA0 /* MeViewController.m */; };
 		074F09E01948AAE700DD8FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074F09DF1948AAE700DD8FA7 /* Foundation.framework */; };
 		074F09E21948AAE700DD8FA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074F09E11948AAE700DD8FA7 /* CoreGraphics.framework */; };
 		074F09E41948AAE700DD8FA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074F09E31948AAE700DD8FA7 /* UIKit.framework */; };
@@ -48,6 +47,9 @@
 		E514B6471964FBDB001D3B5E /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6441964FBDB001D3B5E /* NJKWebViewProgress.m */; };
 		E514B6481964FBDB001D3B5E /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */; };
 		E514B64B19650876001D3B5E /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E514B64A19650876001D3B5E /* UIColor+Utils.m */; };
+		E521C91B196E7F07007F4993 /* EditNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E521C916196E7F07007F4993 /* EditNoViewController.m */; };
+		E521C91C196E7F07007F4993 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E521C918196E7F07007F4993 /* MeViewController.m */; };
+		E521C91D196E7F07007F4993 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E521C91A196E7F07007F4993 /* SetViewController.m */; };
 		E5289A611966516D00A2D94D /* MyJoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A601966516D00A2D94D /* MyJoinViewController.m */; };
 		E5289A641966524E00A2D94D /* MyPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A631966524E00A2D94D /* MyPublishViewController.m */; };
 		E5289A671966809900A2D94D /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5289A661966809900A2D94D /* MyCollectionViewController.m */; };
@@ -67,8 +69,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		074BA4CC1949FC51007C8CA0 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
-		074BA4CD1949FC51007C8CA0 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		074F09DC1948AAE700DD8FA7 /* mba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		074F09DF1948AAE700DD8FA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		074F09E11948AAE700DD8FA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,6 +147,12 @@
 		E514B6461964FBDB001D3B5E /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		E514B64919650876001D3B5E /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
 		E514B64A19650876001D3B5E /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		E521C915196E7F07007F4993 /* EditNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoViewController.h; sourceTree = "<group>"; };
+		E521C916196E7F07007F4993 /* EditNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoViewController.m; sourceTree = "<group>"; };
+		E521C917196E7F07007F4993 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		E521C918196E7F07007F4993 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		E521C919196E7F07007F4993 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		E521C91A196E7F07007F4993 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 		E5289A5F1966516D00A2D94D /* MyJoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJoinViewController.h; sourceTree = "<group>"; };
 		E5289A601966516D00A2D94D /* MyJoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJoinViewController.m; sourceTree = "<group>"; };
 		E5289A621966524E00A2D94D /* MyPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPublishViewController.h; sourceTree = "<group>"; };
@@ -253,14 +259,18 @@
 		074F0A171948ABAB00DD8FA7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E521C915196E7F07007F4993 /* EditNoViewController.h */,
+				E521C916196E7F07007F4993 /* EditNoViewController.m */,
+				E521C917196E7F07007F4993 /* MeViewController.h */,
+				E521C918196E7F07007F4993 /* MeViewController.m */,
+				E521C919196E7F07007F4993 /* SetViewController.h */,
+				E521C91A196E7F07007F4993 /* SetViewController.m */,
 				074F0A181948ABAB00DD8FA7 /* TopicViewController.h */,
 				074F0A191948ABAB00DD8FA7 /* TopicViewController.m */,
 				074F0A1A1948ABAB00DD8FA7 /* ContactsViewController.h */,
 				074F0A1B1948ABAB00DD8FA7 /* ContactsViewController.m */,
 				074F0A1E1948ABE100DD8FA7 /* BaseViewController.h */,
 				074F0A1F1948ABE100DD8FA7 /* BaseViewController.m */,
-				074BA4CC1949FC51007C8CA0 /* MeViewController.h */,
-				074BA4CD1949FC51007C8CA0 /* MeViewController.m */,
 				07B2C7F6194ADD3E00F235B5 /* ReferMeTableViewController.h */,
 				07B2C7F7194ADD3E00F235B5 /* ReferMeTableViewController.m */,
 				07B2C7FC194AEB4E00F235B5 /* LoginViewController.h */,
@@ -528,7 +538,6 @@
 				07583D2B195EFAF700E6C446 /* validation.m in Sources */,
 				E5289A6A19668AF400A2D94D /* TopicDetailViewController.m in Sources */,
 				E514B64B19650876001D3B5E /* UIColor+Utils.m in Sources */,
-				074BA4CE1949FC51007C8CA0 /* MeViewController.m in Sources */,
 				E5289A7F1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItemGroupView.m in Sources */,
 				E5289A7B1966AE7900A2D94D /* WUEmoticonsKeyboard.m in Sources */,
 				E5289A7D1966AE7900A2D94D /* WUEmoticonsKeyboardKeyItem.m in Sources */,
@@ -540,6 +549,7 @@
 				07583D49195F01A400E6C446 /* JSONModel.m in Sources */,
 				07B2C801194AEB7C00F235B5 /* Regist1ViewController.m in Sources */,
 				07B2C7F5194A8F8200F235B5 /* PGToast.m in Sources */,
+				E521C91D196E7F07007F4993 /* SetViewController.m in Sources */,
 				E5289A671966809900A2D94D /* MyCollectionViewController.m in Sources */,
 				07583D52195F01A400E6C446 /* JSONValueTransformer.m in Sources */,
 				E514B6481964FBDB001D3B5E /* NJKWebViewProgressView.m in Sources */,
@@ -548,10 +558,12 @@
 				07B2C7EE194A8EEE00F235B5 /* UIViewExt.m in Sources */,
 				07583D57195F025900E6C446 /* BaseModel.m in Sources */,
 				07583D4C195F01A400E6C446 /* JSONModelError.m in Sources */,
+				E521C91C196E7F07007F4993 /* MeViewController.m in Sources */,
 				E514B6471964FBDB001D3B5E /* NJKWebViewProgress.m in Sources */,
 				07583D51195F01A400E6C446 /* JSONKeyMapper.m in Sources */,
 				E57E4CE7196409F500D1BFCA /* VarCodeViewController.m in Sources */,
 				07583D4B195F01A400E6C446 /* JSONModelClassProperty.m in Sources */,
+				E521C91B196E7F07007F4993 /* EditNoViewController.m in Sources */,
 				E5289A911966B7B600A2D94D /* WUDemoKeyboardBuilder.m in Sources */,
 				E5289A611966516D00A2D94D /* MyJoinViewController.m in Sources */,
 				074F0A201948ABE100DD8FA7 /* BaseViewController.m in Sources */,

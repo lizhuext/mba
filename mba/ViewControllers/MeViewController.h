@@ -8,6 +8,11 @@
 
 #import "BaseViewController.h"
 
-@interface MeViewController : BaseViewController
+@interface MeViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>{
+  
+    UIImageView *_imgVSectionBack;
+    UIButton *_btForHeadPhoto;
+}
 
+@property (nonatomic,copy)NSString *lastChosenMediaType;
 @end
