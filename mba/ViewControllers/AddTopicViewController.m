@@ -42,6 +42,7 @@
 - (IBAction)btnAddTagAction:(id)sender {
     if(!txtInput.emoticonsKeyboard){
         [txtInput switchToEmoticonsKeyboard:[WUDemoKeyboardBuilder sharedEmoticonsKeyboard]];
+        [btnKeyboardSwitch setImage:[UIImage imageNamed:@"keyboard"] forState:UIControlStateNormal];
         NSDictionary *textKeys = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"EmotionTextKeys" ofType:@"plist"]];
         [txtInput.emoticonsKeyboard setKeyPressBlock:^(NSString *key) {
             if([selectTagKeys containsObject:key]){
@@ -65,6 +66,7 @@
 
     }
     else{
+        [btnKeyboardSwitch setImage:[UIImage imageNamed:@"add_tag"] forState:UIControlStateNormal];
         [txtInput switchToDefaultKeyboard];
     }
 }

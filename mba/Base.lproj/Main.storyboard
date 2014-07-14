@@ -758,13 +758,12 @@
                                 <rect key="frame" x="0.0" y="258" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="62h-yx-MSe">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="62h-yx-MSe">
                                         <rect key="frame" x="8" y="8" width="117" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <inset key="titleEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <inset key="imageEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="添加标签" image="add_tag">
+                                        <state key="normal" image="add_tag">
                                             <color key="titleColor" red="0.70588235294117641" green="0.70588235294117641" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -823,6 +822,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnKeyboardSwitch" destination="62h-yx-MSe" id="8Cl-tY-36g"/>
                         <outlet property="lblTag1" destination="zqO-MO-pRF" id="UPA-13-HjP"/>
                         <outlet property="lblTag2" destination="PpV-5g-7m9" id="DKb-Xu-LHI"/>
                         <outlet property="lblTag3" destination="Gur-6N-an7" id="e5E-Gx-2SL"/>

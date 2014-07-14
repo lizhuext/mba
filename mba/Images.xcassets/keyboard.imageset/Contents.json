@@ -2,13 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "keyboard_del.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "keyboard_del@2x.png"
+      "filename" : "keyboard@2x.png"
     }
   ],
   "info" : {

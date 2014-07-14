@@ -14,6 +14,7 @@
     __weak IBOutlet UILabel *lblTag1;
     __weak IBOutlet UILabel *lblTag2;
     __weak IBOutlet UILabel *lblTag3;
+    __weak IBOutlet UIButton *btnKeyboardSwitch;
     
 }
 - (IBAction)btnAddTagAction:(id)sender;
